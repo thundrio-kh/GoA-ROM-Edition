@@ -299,835 +299,835 @@ assets:
   source:
   - name: msg/libretto-tr.bar
 #ARD Editing
-- name: ard/al00.ard #Agrabah (GoA Warp)
+- name: ard/us/al00.ard #Agrabah (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al00/evt.script
-- name: ard/al03.ard #The Palace (GoA Warp)
+    - name: ard/us/al00/evt.script
+- name: ard/us/al03.ard #The Palace (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al03/evt.script
-- name: ard/al10.ard #Treasure Room (Checkpoint)
+    - name: ard/us/al03/evt.script
+- name: ard/us/al10.ard #Treasure Room (Checkpoint)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al10/evt.script
+    - name: ard/us/al10/evt.script
   - name: e_50 #Party Spawn
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al10/e_50.yml
-- name: ard/al14.ard #Sandswept Ruins (Skip Jafar Clone)
+    - name: ard/us/al10/e_50.yml
+- name: ard/us/al14.ard #Sandswept Ruins (Skip Jafar Clone)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al14/evt.script
-- name: ard/al15.ard #The Peddler's Shop (Rich) (Lexaeus' AS Portal)
+    - name: ard/us/al14/evt.script
+- name: ard/us/al15.ard #The Peddler's Shop (Rich) (Lexaeus' AS Portal)
   method: binarc
   source:
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al15/btl.script
+    - name: ard/us/al15/btl.script
   - name: b_80 #Normal
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al15/b_80.yml
+    - name: ard/us/al15/b_80.yml
   - name: b_81 #Data
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al15/b_81.yml
+    - name: ard/us/al15/b_81.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al15/evt.script
-- name: ard/bb04.ard #Ballroom (Data Warp)
+    - name: ard/us/al15/evt.script
+- name: ard/us/bb04.ard #Ballroom (Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/bb04/map.script
+    - name: ard/us/bb04/map.script
   - name: m_11 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/bb04/m_11.yml
-- name: ard/bb06.ard #Courtyard (GoA Warp)
+    - name: ard/us/bb04/m_11.yml
+- name: ard/us/bb06.ard #Courtyard (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/bb06/evt.script
-- name: ard/bb14.ard #Ballroom (Post Dark Thorn) (GoA Warp)
+    - name: ard/us/bb06/evt.script
+- name: ard/us/bb14.ard #Ballroom (Post Dark Thorn) (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/bb14/evt.script
-- name: ard/ca05.ard #The Black Pearl (GoA Warp)
+    - name: ard/us/bb14/evt.script
+- name: ard/us/ca05.ard #The Black Pearl (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/ca05/evt.script
-- name: ard/ca08.ard #Isla de Muerta: Rock Face (1st Visit) (GoA Warp)
+    - name: ard/us/ca05/evt.script
+- name: ard/us/ca08.ard #Isla de Muerta: Rock Face (1st Visit) (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/ca08/evt.script
-- name: ard/ca10.ard #Isla de Muerta: Treasure Heap (Data Warp)
+    - name: ard/us/ca08/evt.script
+- name: ard/us/ca10.ard #Isla de Muerta: Treasure Heap (Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/ca10/map.script
+    - name: ard/us/ca10/map.script
   - name: m_11 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca10/m_11.yml
-- name: ard/dc04.ard #The Hall of the Cornerstone (Dark) (Skip WM and Skip HB)
+    - name: ard/us/ca10/m_11.yml
+- name: ard/us/dc04.ard #The Hall of the Cornerstone (Dark) (Skip WM and Skip HB)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/dc04/evt.script
-- name: ard/dc05.ard #The Hall of the Cornerstone (Light) (GoA Warp & Marluxia's AS Portal)
+    - name: ard/us/dc04/evt.script
+- name: ard/us/dc05.ard #The Hall of the Cornerstone (Light) (GoA Warp & Marluxia's AS Portal)
   method: binarc
   source:
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/dc05/btl.script
+    - name: ard/us/dc05/btl.script
   - name: b_80 #Normal
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/dc05/b_80.yml
+    - name: ard/us/dc05/b_80.yml
   - name: b_81 #Data
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/dc05/b_81.yml
+    - name: ard/us/dc05/b_81.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/dc05/evt.script
-- name: ard/dc07.ard #Gathering Place (Early Manifest Illusion) !!!
+    - name: ard/us/dc05/evt.script
+- name: ard/us/dc07.ard #Gathering Place (Early Manifest Illusion) !!!
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/dc07/evt.script
-- name: ard/eh00.ard #Where Nothing Gathers (GoA Warp)
+    - name: ard/us/dc07/evt.script
+- name: ard/us/eh00.ard #Where Nothing Gathers (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/eh00/evt.script
-- name: ard/eh01.ard #Alley to Between (GoA Warp)
+    - name: ard/us/eh00/evt.script
+- name: ard/us/eh01.ard #Alley to Between (GoA Warp)
   method: binarc
   source:
   - name: m_10 #Event Trigger to Garden of Assemblage
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/eh01/m_10.yml
+    - name: ard/us/eh01/m_10.yml
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/eh01/btl.script
-- name: ard/eh10.ard #Hall of Empty Melodies (Lower Level) (Prevent OoB in Xigbar's Arena)
+    - name: ard/us/eh01/btl.script
+- name: ard/us/eh10.ard #Hall of Empty Melodies (Lower Level) (Prevent OoB in Xigbar's Arena)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/eh10/map.script
-- name: ard/eh18.ard #The Altar of Naught (Data Warp)
+    - name: ard/us/eh10/map.script
+- name: ard/us/eh18.ard #The Altar of Naught (Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/eh18/map.script
+    - name: ard/us/eh18/map.script
   - name: m_11 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/eh18/m_11.yml
-- name: ard/eh27.ard #The World of Nothing (Part I) (Party Menu after Promise Charm)
+    - name: ard/us/eh18/m_11.yml
+- name: ard/us/eh27.ard #The World of Nothing (Part I) (Party Menu after Promise Charm)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/eh27/evt.script
-- name: ard/hb00.ard #Villain's Vale (Early 2nd Cutscene)
+    - name: ard/us/eh27/evt.script
+- name: ard/us/hb00.ard #Villain's Vale (Early 2nd Cutscene)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb00/evt.script
-- name: ard/hb01.ard #The Dark Depths (GoA Warp & Skip Cloud)
+    - name: ard/us/hb00/evt.script
+- name: ard/us/hb01.ard #The Dark Depths (GoA Warp & Skip Cloud)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb01/evt.script
+    - name: ard/us/hb01/evt.script
   - name: j52e #Sephiroth Spawn
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb01/j52e.yml
-- name: ard/hb04.ard #Castle Gate (Checkpoint)
+    - name: ard/us/hb01/j52e.yml
+- name: ard/us/hb04.ard #Castle Gate (Checkpoint)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb04/map.script
+    - name: ard/us/hb04/map.script
   - name: m_01 #Party Spawn
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb04/m_01.yml
+    - name: ard/us/hb04/m_01.yml
   - name: m_12 #Event Trigger to Ravine Trail Heartless I
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb04/m_12.yml
+    - name: ard/us/hb04/m_12.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb04/evt.script
-- name: ard/hb05.ard #Ansem's Study (Remove Computer, Skip SP, Early Sleeping Lion, Skip HB)
+    - name: ard/us/hb04/evt.script
+- name: ard/us/hb05.ard #Ansem's Study (Remove Computer, Skip SP, Early Sleeping Lion, Skip HB)
   method: binarc
   source:
   - name: m_50 #Computer to Space Paranoids Despawn
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb05/m_50.yml
+    - name: ard/us/hb05/m_50.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb05/evt.script
-- name: ard/hb06.ard #Postern (Skip HB, GoA Warp)
+    - name: ard/us/hb05/evt.script
+- name: ard/us/hb06.ard #Postern (Skip HB, GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb06/evt.script
-- name: ard/hb08.ard #Bailey (Intact) (Early Chicken Little)
+    - name: ard/us/hb06/evt.script
+- name: ard/us/hb08.ard #Bailey (Intact) (Early Chicken Little)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb08/evt.script
-- name: ard/hb10.ard #Marketplace (Skip Cloud)
+    - name: ard/us/hb08/evt.script
+- name: ard/us/hb10.ard #Marketplace (Skip Cloud)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb10/evt.script
-- name: ard/hb13.ard #Merlin's House (GoA Warp)
+    - name: ard/us/hb10/evt.script
+- name: ard/us/hb13.ard #Merlin's House (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb13/evt.script
-- name: ard/hb18.ard #Restoration Site (Destroyed) (Data Warp)
+    - name: ard/us/hb13/evt.script
+- name: ard/us/hb18.ard #Restoration Site (Destroyed) (Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb18/map.script
+    - name: ard/us/hb18/map.script
   - name: m_13 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb18/m_13.yml
-- name: ard/hb24.ard #Cavern of Remembrance: Mineshaft (Softlock Prevention)
+    - name: ard/us/hb18/m_13.yml
+- name: ard/us/hb24.ard #Cavern of Remembrance: Mineshaft (Softlock Prevention)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb24/map.script
+    - name: ard/us/hb24/map.script
   - name: m_17 #Room Transition to Mineshaft Entrance
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb24/m_17.yml
-- name: ard/hb26.ard #Garden of Assemblage (Various Stuff)
+    - name: ard/us/hb24/m_17.yml
+- name: ard/us/hb26.ard #Garden of Assemblage (Various Stuff)
   method: binarc
   source:
   - name: m_10 #Event Trigger to 100 Acre Wood
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb26/m_10.yml
+    - name: ard/us/hb26/m_10.yml
   - name: m_11 #Event Trigger to Atlantica
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb26/m_11.yml
+    - name: ard/us/hb26/m_11.yml
   - name: m_70 #Chest Relocation, Save Point, Moogle Shop
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb26/m_70.yml
+    - name: ard/us/hb26/m_70.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb26/evt.script
-- name: ard/hb32.ard #The Old Mansion (AS Warp)
+    - name: ard/us/hb26/evt.script
+- name: ard/us/hb32.ard #The Old Mansion (AS Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb32/evt.script
-- name: ard/hb33.ard #Station of Remembrance (AS Warp)
+    - name: ard/us/hb32/evt.script
+- name: ard/us/hb33.ard #Station of Remembrance (AS Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb33/evt.script
-- name: ard/hb38.ard #Station of Oblivion (AS Warp)
+    - name: ard/us/hb33/evt.script
+- name: ard/us/hb38.ard #Station of Oblivion (AS Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/hb38/evt.script
-- name: ard/he08.ard #Well of Captivity (Skip Megara Escort)
+    - name: ard/us/hb38/evt.script
+- name: ard/us/he08.ard #Well of Captivity (Skip Megara Escort)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/he08/evt.script
-- name: ard/he10.ard #Cave of the Dead: Inner Chamber (Zexion's AS Portal)
+    - name: ard/us/he08/evt.script
+- name: ard/us/he10.ard #Cave of the Dead: Inner Chamber (Zexion's AS Portal)
   method: binarc
   source:
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/he10/btl.script
+    - name: ard/us/he10/btl.script
   - name: b_80 #Pre-Demyx
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he10/b_80.yml
+    - name: ard/us/he10/b_80.yml
   - name: b_82 #Data
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he10/b_82.yml
+    - name: ard/us/he10/b_82.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/he10/evt.script
-- name: ard/he14.ard #Coliseum Gates (Night) (GoA Warp)
+    - name: ard/us/he10/evt.script
+- name: ard/us/he14.ard #Coliseum Gates (Night) (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/he14/evt.script
-- name: ard/he18.ard #Coliseum Gates (Hydra) (GoA Warp)
+    - name: ard/us/he14/evt.script
+- name: ard/us/he18.ard #Coliseum Gates (Hydra) (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/he18/evt.script
-- name: ard/lk00.ard #Pride Rock (GoA Warp)
+    - name: ard/us/he18/evt.script
+- name: ard/us/lk00.ard #Pride Rock (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/lk00/evt.script
-- name: ard/lk13.ard #Peak (Data Warp)
-  method: binarc
-  source:
-  - name: map
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk13/map.script
-  - name: m_11 #Event Trigger to Station of Calling
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk13/m_11.yml
-- name: ard/lk14.ard #Scar's Darkness (BGM Change)
-  method: binarc
-  source:
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk14/evt.script
-- name: ard/lm02.ard #Undersea Courtyard (GoA Warp)
-  method: binarc
-  source:
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lm02/evt.script
-- name: ard/lm04.ard #The Palace: Performance Hall (GoA Warp)
-  method: binarc
-  source:
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lm04/evt.script
-- name: ard/lm05.ard #Sunken Ship (GoA Warp)
-  method: binarc
-  source:
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lm05/evt.script
-- name: ard/lm06.ard #The Shore (Day) (GoA Warp)
-  method: binarc
-  source:
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lm06/evt.script
-- name: ard/mu07.ard #Summit (Drive Revert & Data Warp)
+    - name: ard/us/lk00/evt.script
+- name: ard/us/lk13.ard #Peak (Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/mu07/map.script
+    - name: ard/us/lk13/map.script
   - name: m_11 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu07/m_11.yml
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/mu07/evt.script
-- name: ard/mu09.ard #Palace Gate (GoA Warp)
+    - name: ard/us/lk13/m_11.yml
+- name: ard/us/lk14.ard #Scar's Darkness (BGM Change)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/mu09/evt.script
-- name: ard/mu11.ard #Throne Room (GoA Warp)
+    - name: ard/us/lk14/evt.script
+- name: ard/us/lm02.ard #Undersea Courtyard (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/mu11/evt.script
-- name: ard/nm00.ard #Halloween Town Square (GoA Warp)
+    - name: ard/us/lm02/evt.script
+- name: ard/us/lm04.ard #The Palace: Performance Hall (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/nm00/evt.script
-- name: ard/nm05.ard #Yuletide Hill (Vexen's AS Portal)
+    - name: ard/us/lm04/evt.script
+- name: ard/us/lm05.ard #Sunken Ship (GoA Warp)
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/lm05/evt.script
+- name: ard/us/lm06.ard #The Shore (Day) (GoA Warp)
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/lm06/evt.script
+- name: ard/us/mu07.ard #Summit (Drive Revert & Data Warp)
+  method: binarc
+  source:
+  - name: map
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/mu07/map.script
+  - name: m_11 #Event Trigger to Station of Calling
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/us/mu07/m_11.yml
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/mu07/evt.script
+- name: ard/us/mu09.ard #Palace Gate (GoA Warp)
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/mu09/evt.script
+- name: ard/us/mu11.ard #Throne Room (GoA Warp)
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/mu11/evt.script
+- name: ard/us/nm00.ard #Halloween Town Square (GoA Warp)
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/us/nm00/evt.script
+- name: ard/us/nm05.ard #Yuletide Hill (Vexen's AS Portal)
   method: binarc
   source:
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/nm05/btl.script
+    - name: ard/us/nm05/btl.script
   - name: b_80 #Normal
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm05/b_80.yml
+    - name: ard/us/nm05/b_80.yml
   - name: b_81 #Data
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm05/b_81.yml
-- name: ard/nm06.ard #Candy Cane Lane (GoA Warp)
+    - name: ard/us/nm05/b_81.yml
+- name: ard/us/nm06.ard #Candy Cane Lane (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/nm06/evt.script
-- name: ard/po00.ard #The Hundred Acre Wood (GoA Warp)
+    - name: ard/us/nm06/evt.script
+- name: ard/us/po00.ard #The Hundred Acre Wood (GoA Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/po00/map.script
+    - name: ard/us/po00/map.script
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/po00/evt.script
-- name: ard/po01.ard #Starry Hill (GoA Warp)
+    - name: ard/us/po00/evt.script
+- name: ard/us/po01.ard #Starry Hill (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/po01/evt.script
-- name: ard/po06.ard #A Windsday Tale (BGM Change)
+    - name: ard/us/po01/evt.script
+- name: ard/us/po06.ard #A Windsday Tale (BGM Change)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/po06/evt.script
-- name: ard/tr00.ard #Pit Cell (GoA Warp, Skip Light Cycle & Skip HB)
+    - name: ard/us/po06/evt.script
+- name: ard/us/tr00.ard #Pit Cell (GoA Warp, Skip Light Cycle & Skip HB)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr00/evt.script
-- name: ard/tr01.ard #Canyon (Skip Light Cycle & Skip HB)
+    - name: ard/us/tr00/evt.script
+- name: ard/us/tr01.ard #Canyon (Skip Light Cycle & Skip HB)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr01/evt.script
-- name: ard/tr02.ard #Game Grid (Skip Light Cycle)
+    - name: ard/us/tr01/evt.script
+- name: ard/us/tr02.ard #Game Grid (Skip Light Cycle)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr02/evt.script
-- name: ard/tr04.ard #I/O Tower: Hallway (Skip HB)
+    - name: ard/us/tr02/evt.script
+- name: ard/us/tr04.ard #I/O Tower: Hallway (Skip HB)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr04/evt.script
-- name: ard/tr05.ard #I/O Tower: Communications Room (GoA Warp)
+    - name: ard/us/tr04/evt.script
+- name: ard/us/tr05.ard #I/O Tower: Communications Room (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr05/evt.script
-- name: ard/tr08.ard #Central Computer Mesa (GoA Warp)
+    - name: ard/us/tr05/evt.script
+- name: ard/us/tr08.ard #Central Computer Mesa (GoA Warp)
   method: binarc
   source:
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr08/btl.script
+    - name: ard/us/tr08/btl.script
   - name: b_80 #Normal
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr08/b_80.yml
+    - name: ard/us/tr08/b_80.yml
   - name: b_81 #Data
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr08/b_81.yml
+    - name: ard/us/tr08/b_81.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr08/evt.script
-- name: ard/tr09.ard #Central Computer Core (GoA Warp)
+    - name: ard/us/tr08/evt.script
+- name: ard/us/tr09.ard #Central Computer Core (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tr09/evt.script
-- name: ard/tt01.ard #Roxas' Room (New Game Warp)
+    - name: ard/us/tr09/evt.script
+- name: ard/us/tt01.ard #Roxas' Room (New Game Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt01/evt.script
-- name: ard/tt02.ard #The Usual Spot (Skip WM)
+    - name: ard/us/tt01/evt.script
+- name: ard/us/tt02.ard #The Usual Spot (Skip WM)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt02/evt.script
-- name: ard/tt08.ard #Station Plaza (Prevent Promise Charm Removal)
+    - name: ard/us/tt02/evt.script
+- name: ard/us/tt08.ard #Station Plaza (Prevent Promise Charm Removal)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt08/evt.script
-- name: ard/tt09.ard #Central Station (Drive Refill)
+    - name: ard/us/tt08/evt.script
+- name: ard/us/tt09.ard #Central Station (Drive Refill)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt09/evt.script
-- name: ard/tt14.ard #The Old Mansion (BGM Change)
+    - name: ard/us/tt09/evt.script
+- name: ard/us/tt14.ard #The Old Mansion (BGM Change)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt14/evt.script
-- name: ard/tt20.ard #Mansion: Basement Hall (Axel II) (Drive Refill)
+    - name: ard/us/tt14/evt.script
+- name: ard/us/tt20.ard #Mansion: Basement Hall (Axel II) (Drive Refill)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt20/evt.script
-- name: ard/tt23.ard #Mansion: Pod Room (GoA Warp & Data Warp)
+    - name: ard/us/tt20/evt.script
+- name: ard/us/tt23.ard #Mansion: Pod Room (GoA Warp & Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt23/map.script
+    - name: ard/us/tt23/map.script
   - name: m_11 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt23/m_11.yml
+    - name: ard/us/tt23/m_11.yml
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt23/evt.script
-- name: ard/tt26.ard #Tower: Entryway (Drive Refill)
+    - name: ard/us/tt23/evt.script
+- name: ard/us/tt26.ard #Tower: Entryway (Drive Refill)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt26/evt.script
-- name: ard/tt27.ard #Tower: Sorcerer's Loft (Drive Refill)
+    - name: ard/us/tt26/evt.script
+- name: ard/us/tt27.ard #Tower: Sorcerer's Loft (Drive Refill)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt27/evt.script
-- name: ard/tt28.ard #Tower: Wardrobe (GoA Warp)
+    - name: ard/us/tt27/evt.script
+- name: ard/us/tt28.ard #Tower: Wardrobe (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt28/evt.script
-- name: ard/tt32.ard #Station of Serenity (GoA Warp)
+    - name: ard/us/tt28/evt.script
+- name: ard/us/tt32.ard #Station of Serenity (GoA Warp)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt32/evt.script
+    - name: ard/us/tt32/evt.script
   - name: 830_ #NPC Dusks -> Mickey, Donald, Goofy
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt32/830_.yml
-- name: ard/tt33.ard #Station of Calling (Data Paths)
+    - name: ard/us/tt32/830_.yml
+- name: ard/us/tt33.ard #Station of Calling (Data Paths)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt33/map.script
+    - name: ard/us/tt33/map.script
   - name: m_12 #Event Triggers (Backtrack & Data)
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/m_12.yml
+    - name: ard/us/tt33/m_12.yml
   - name: m_20 #Save Point
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/m_20.yml
+    - name: ard/us/tt33/m_20.yml
   - name: b_01 #Data Xemnas
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_01.yml
+    - name: ard/us/tt33/b_01.yml
   - name: b_02 #Data Xigbar
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_02.yml
+    - name: ard/us/tt33/b_02.yml
   - name: b_03 #Data Xaldin
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_03.yml
+    - name: ard/us/tt33/b_03.yml
   - name: b_07 #Data Saix
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_07.yml
+    - name: ard/us/tt33/b_07.yml
   - name: b_08 #Data Axel
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_08.yml
+    - name: ard/us/tt33/b_08.yml
   - name: b_09 #Data Demyx
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_09.yml
+    - name: ard/us/tt33/b_09.yml
   - name: b_10 #Data Luxord
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_10.yml
+    - name: ard/us/tt33/b_10.yml
   - name: b_13 #Data Roxas
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_13.yml
+    - name: ard/us/tt33/b_13.yml
   - name: b_15 #Promise Charm
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt33/b_15.yml
-- name: ard/tt40.ard #Betwixt & Between (Data Warp)
+    - name: ard/us/tt33/b_15.yml
+- name: ard/us/tt40.ard #Betwixt & Between (Data Warp)
   method: binarc
   source:
   - name: map
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt40/map.script
+    - name: ard/us/tt40/map.script
   - name: m_12 #Event Trigger to Station of Calling
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt40/m_12.yml
-- name: ard/tt41.ard #The Old Mansion (Nobodies) (BGM Change)
+    - name: ard/us/tt40/m_12.yml
+- name: ard/us/tt41.ard #The Old Mansion (Nobodies) (BGM Change)
   method: binarc
   source:
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt41/evt.script
+    - name: ard/us/tt41/evt.script
